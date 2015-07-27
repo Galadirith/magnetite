@@ -1,0 +1,32 @@
+{
+  "name": "magnetite",
+  "version": "0.1.0",
+  "description": "Lean MathJax wrapper for Electron",
+  "main": "lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Galadirith/magnetite.git"
+  },
+  "keywords": [
+    "MathJax",
+    "Electron",
+    "Atom"
+  ],
+  "author": "Galadirith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Galadirith/magnetite/issues"
+  },
+  "homepage": "https://github.com/Galadirith/magnetite",
+  "scripts": {
+    "prepublish": "grunt coffee"
+  },
+  "dependencies": {
+    "MathJax": "https://github.com/Galadirith/MathJax/tarball/release-2.4.0-electron"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
