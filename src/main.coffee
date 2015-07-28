@@ -39,7 +39,7 @@ module.exports =
         return
       return true
     else
-      load()
+      @load()
       script = document.querySelector('script[src*="MathJax.js"]')
       script.addEventListener 'load', () ->
         MathJax.Hub.Queue ["Typeset", MathJax.Hub, dom]
